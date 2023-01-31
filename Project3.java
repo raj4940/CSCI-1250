@@ -8,7 +8,7 @@ public class Main {
      * method to display welcome message
      */
     public static void displayWelcomeMessage() {
-        System.out.println("Hi. This is the program Project3 which was created by INSERT_YOUR_NAME.");
+        System.out.println("Hi. This is the program Project3 which was created by Raj.");
         System.out.println("It accepts 3 test scores as numbers between 0 and 100 and calculates the average.");
         System.out.println("Then find a matching grade letter and calculate GPA.");
         System.out.println("It works in the loop until an user decides to exit");
