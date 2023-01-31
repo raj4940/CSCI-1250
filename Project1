@@ -1,0 +1,72 @@
+//Author's name: Raj Patel
+//File name: Project1.java
+//Course-Section: CSCI-1250
+//Date created: 9/27/2019
+
+import java.util.Scanner;
+
+public class Project1 {
+    public static void main(String[] args)
+    {
+
+        Scanner sc=new Scanner(System.in);
+
+        //declare variables
+        String firstName,lastName;
+        double TvHours;
+
+
+        System.out.println("\n***********************************************************");
+
+        //introduction and ask user for name
+        System.out.print("Hello, my name is Esra! What is your first name? ");
+
+        //read first name
+        firstName=sc.nextLine();
+        System.out.print("What is your last name? ");
+
+        //read last name
+        lastName=sc.nextLine();
+
+        //print first and last name with first and last initals in parentheses
+        System.out.print("\nHello, "+firstName+" "+lastName+"("+firstName.charAt(0)+lastName.charAt(0)+")!");
+
+        //ask user hours watching TV per day on average
+        System.out.print("\n\nNow tell me, how many hours of TV do you watch per day <on avg>? ");
+
+        //read hours per day of TV
+        TvHours=sc.nextDouble();
+
+        //if user entered negative number
+        if(TvHours<0)
+        {
+            System.out.print("\nThat is not a VALID NUMBER "+""+firstName + " " +lastName+"!\n ");
+
+            return;
+
+        }
+
+        System.out.println("\n**************************************************************");
+
+        System.out.println("\nI bet you didn't realize that in the next 10 years");
+
+        System.out.println("you could potentially spend a total of...");
+
+        //calculate total hours for next 10 years
+        double totalHours=TvHours*365*10;
+        System.out.println("\n\t"+totalHours+" hours, or");
+
+        //calculate total days for next 10 years
+        double totalDays=totalHours/24;
+        System.out.println("\n\t"+totalDays+" days, or");
+
+        //calculate total years for next 10 years
+        double totalYears=totalDays/365;
+        System.out.println("\n\t"+totalYears+" years watching TV!");
+        System.out.println("\nThat's eye opening isn't it, "+firstName+"!?");
+
+        System.out.println("\n*************************************************************\n ");
+
+    }//end main
+
+}//end class
