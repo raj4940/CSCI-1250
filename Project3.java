@@ -1,3 +1,11 @@
+//Author's name: Raj Patel
+//File name: Project1.java
+//Course-Section: CSCI-1250
+//Date created: 11/21/2019
+
+//This project asks the user for three tests scores from 1-100 and returns a calculated GPA.
+
+
 import java.util.Scanner;
 
 public class Main {
