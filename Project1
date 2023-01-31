@@ -3,7 +3,7 @@
 //Course-Section: CSCI-1250
 //Date created: 9/27/2019
 
-//This project asks the user for their first and last name and then asks how many hours a day do they watch Televison.
+//This project asks the user for their first and last name and then asks how many hours a day do they watch televison.
 //Then prints the average for the next 10 years in days and hours.
 
 import java.util.Scanner;
